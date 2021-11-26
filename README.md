@@ -1,6 +1,6 @@
 # Overview
 
-This repository contains a single [p5.js](https://p5js.org/) sketch that demonstrates drawing a circular arc that intersects 2 points. This sketch includes a sphere with 3 rotating points. The 3 rotating points include the intersecting arc (in green), as well as additinoal shapes which were used to demonstrate variant geometries.
+This repository contains a single [p5.js](https://p5js.org/) sketch that demonstrates drawing a circular arc that intersects 2 points. This sketch includes a sphere with 3 rotating points. The 3 rotating points include the intersecting arc (in green), as well as additional shapes which were used to demonstrate variant geometries.
 
 The approach for constructing a circular arc includes finding the midpoint between the 2 specified points (pink), then drawing a circle upon the xy axis. Lastly, rotating that circle based upon the angle of rotation.
 
@@ -10,7 +10,7 @@ The approach for constructing a circular arc includes finding the midpoint betwe
 
 
 # Building
-In order to operate this sketch, you must download the following dependencies, and place them in the "libraries" folder so that they are correctly references from the index.html file:
+In order to operate this sketch, you must download the following dependencies, and place them in the "libraries" folder so that they are correctly referenced from the index.html file:
 ```
   <script language="javascript" type="text/javascript" src="libraries/p5.min.js"></script>
   <script language="javascript" type="text/javascript" src="libraries/p5.easycam.js"></script>
